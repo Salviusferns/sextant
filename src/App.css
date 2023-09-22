@@ -1,38 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+/* styles.css or your preferred CSS file */
+
+/* Global Styles */
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #222;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Banner Component */
+.banner {
+  background-color: #007f46;
+  padding: 10px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* Exhibit Component */
+.exhibit {
+  background-color: #000101;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.exhibit h2 {
+  margin-top: 0;
+  color: #000000;
+}
+
+/* IP Address Component */
+.ip-address-container {
+  background-color: #005e33;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Latency Component */
+.latency-container {
+  background-color: #00a45d;
+  padding: 10px;
+  border-radius: 5px;
 }

@@ -1,0 +1,21 @@
+/* src/Exhibit.css */
+.exhibit {
+    background-color: #00b961;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  

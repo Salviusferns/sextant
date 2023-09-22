@@ -1,0 +1,19 @@
+/* src/Latency.css */
+.latency-container {
+    background-color: #00a45d;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
